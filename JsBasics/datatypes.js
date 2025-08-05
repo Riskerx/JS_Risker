@@ -29,3 +29,31 @@ const myfxn = function(){
 }
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//________________________________________________________
+// stack and heap memory
+/* in every primitive data type stack memory is used 
+and for refrence data type heap memory is used */
+
+let mygithubname = "RiskerX"
+let mylinkedinname = mygithubname
+mylinkedinname = "Rishikesh Sharma"
+
+console.log(mygithubname)
+console.log(mylinkedinname)
+
+
+let user_one = {
+    email: "one@gmail.com",
+    passward: "1432"
+}
+
+let user_two = user_one
+
+user_two.email = "change@gamil.com"
+
+console.log(user_one.email)
+console.log(user_two.email)
+
+
+// in heap variable get same reference. Unlike incase of stack 
