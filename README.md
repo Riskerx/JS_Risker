@@ -1,2 +1,2 @@
-learning javascript with git
+learning javascript with git ||
 project using javascript
